@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header Logo Section */
+header {
+    background-color: #f5f5dc;
+    text-align: center;
+    padding: 40px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+header .logo img {
+    height: 40px; /* Small logo size */
+    width: auto;
+}
+
+header h1 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #444; /* Dark background for nav */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}.menu-container {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.menu-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu-item {
+    width: 250px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.menu-item h3 {
+    font-size: 18px;
+    color: #007acc;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.menu-item .price {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+footer {
+    background-color: #444;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.footer-logo {
+    height: 60px;      /* Small footer logo size */
+    width: auto;
+    margin-top: 40px;
+}

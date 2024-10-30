@@ -1,0 +1,173 @@
+/* Booking Container */
+.booking-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f3e5; /* Soft ivory background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.booking-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Booking Form */
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.booking-form label {
+    font-size: 14px;
+    color: #007acc; /* Accent color */
+    text-align: left;
+    font-weight: bold;
+}
+
+.booking-form input,
+.booking-form select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.booking-form input:focus,
+.booking-form select:focus {
+    border-color: #007acc;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 122, 204, 0.3);
+}
+
+/* Submit Button */
+.submit-button {
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007acc; /* Accent color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #005f99; /* Darker shade for hover */
+}
+
+.submit-button:active {
+    background-color: #004f7a;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .booking-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .booking-form input,
+    .booking-form select {
+        font-size: 13px;
+    }
+
+    .submit-button {
+        font-size: 15px;
+    }
+}
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #f5f5dc;
+    text-align: center;
+    padding: 40px;
+}
+    header .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+header .logo img {
+    height: 40px; /* Small logo size */
+    width: auto;
+}
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #007acc;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 40px; /* Small footer logo */
+    height: auto;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #007acc;
+    margin: 20px 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
